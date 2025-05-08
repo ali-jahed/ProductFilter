@@ -1,4 +1,5 @@
 const productsContainer = document.querySelector('.products-container');
+const btns = document.querySelectorAll('.btn')
 
 import { productsData } from "./products.js";
 
@@ -52,4 +53,12 @@ document.addEventListener('DOMContentLoaded', () => {
             renderProducts(allProducts, filters);
         });
     }
+    btns.forEach((btn)=>{
+        btn.addEventListener('click',(e)=>{
+            const filter = e.target.dataset.filter
+            filters.searchItem = filter;
+            renderProducts(allProducts, filters);
+        });
+    });
 });
+

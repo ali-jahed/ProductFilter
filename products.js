@@ -49,27 +49,27 @@ export const productsData = [
     },
     {
         id:9,
-        title:'jewlery1',
+        title:'jewellery1',
         price:10,
-        imageUrl:'./img/jewlery1.png',
+        imageUrl:'./img/jewellery1.png',
     },
     {
         id:10,
-        title:'jewlery2',
+        title:'jewellery2',
         price:10,
-        imageUrl:'./img/jewlery2.png',
+        imageUrl:'./img/jewellery2.png',
     },
     {
         id:11,
-        title:'jewlery3',
+        title:'jewellery3',
         price:10,
-        imageUrl:'./img/jewlery3.png',
+        imageUrl:'./img/jewellery3.png',
     },
     {
         id:12,
-        title:'jewlery4',
+        title:'jewellery4',
         price:10,
-        imageUrl:'./img/jewlery4.png',
+        imageUrl:'./img/jewellery4.png',
     },
 
 ];
